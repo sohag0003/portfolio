@@ -120,6 +120,7 @@ main{
     border-radius: 5px;
     padding: 30px;
     text-align: justify;
+    margin: 15px;
 }
 .skill-title{
     font-size: 20px;
@@ -128,4 +129,37 @@ main{
     margin-bottom: 20px;
     text-align: center;
 }
-/* Resumestyles */
+/* Resume styles */
+.resume-content{
+    display: flex;
+    gap: 100px;
+    /* justify-content: center; */
+}
+.resume{
+    padding: 0px 50px 0px 50px;
+}
+.resume .title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 10px;
+
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color:#757575;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-btn{
+    margin-top: 50;
+    text-align: center;
+}
+/* Footer section styles */
