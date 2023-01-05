@@ -64,11 +64,14 @@ nav ul{
     background-position:bottom right, left;
     background-size: auto, 100px 500px;
 }
-.about{
+section{
     margin-top: 130px;
+}
+.about{
+    /* margin-top: 130px; */
     background-color: #f8b789;
     border-radius: 10px;
-    padding: 100px 150px;
+    padding: 60px 100px;
     text-align: center;
 }
 main{
@@ -76,9 +79,10 @@ main{
     margin: 0px auto;
 }
 .section-title{
-  
+    text-align: center;
     padding-bottom: 30px;
    font-size: 30px;
+   margin-bottom: 50px;
 }
 .section-description{
     color: #757575;
@@ -98,3 +102,30 @@ main{
     font-weight: 700;
     color: #474747;
 }
+
+/* What i do */
+/* .what-i-do{
+    margin-top: 100px;
+    margin-bottom: 40px;
+     
+} */
+.skills-container{
+    display: flex;
+    gap: 24px;
+    /* justify-content: space-between; */
+}
+.skill{
+    background: #fff;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+    border-radius: 5px;
+    padding: 30px;
+    text-align: justify;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* Resumestyles */
